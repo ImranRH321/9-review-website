@@ -1,0 +1,11 @@
+.color{
+    transition: transform 1.5s;
+ padding: 15px;
+   
+}
+
+    .color:hover {
+        transform: scale(1.1);
+        border-radius: 10px;
+        box-shadow: 1px, solid, rgb(128, 128, 128, 0, 63);
+    }

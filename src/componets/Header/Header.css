@@ -1,0 +1,32 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #16212d; 
+  
+}
+
+.header .links {
+  font-size: 25px;
+  margin: 0 10px;
+  margin-right: 25px;
+  color: #fff;
+  text-decoration: none;
+  background-attachment: fixed;
+}
+.header .links:hover {
+  color: red;
+  
+  text-decoration: underline;
+}
+
+.logo{
+      width: 200px;
+      height: 70px;
+      background-color: rgb(6, 7, 2);
+      border-radius: 50px;
+      cursor: pointer;
+      text-decoration: underline;
+  }
