@@ -20,10 +20,7 @@ const Home = () => {
 <div>
 <section className='showcase'>
       <div className='showcase-overlay'>
-        <h1>Get Your <span> Education </span> today!</h1>
-        <p>
-      
-        </p>
+          <h2 className="text-warning text-uppercase">--------scroll bottom----------</h2>
       </div>
     </section>
         <div className='Backgroun-img'>
@@ -32,7 +29,7 @@ const Home = () => {
             <div className="row p-5 gy-4 bg-muted">
             
                 {data.slice(0,6).map((home) => {
-                    const { name, email,online, img } = home;
+                    const { name, email,online, img,phone } = home;
                     return (
                         <>
                         
@@ -43,8 +40,9 @@ const Home = () => {
                                        <div class="card" style={{width: "18rem"}}>
                                     <img src={img} class="card-img-top" alt="..." />
                                     <div class ="card-body">
-                                     <h3>Corse: {online}</h3>
+                                     <h3>online: {online}</h3>
                                     <p>email: {email}</p>
+                                    <p><small>+{phone}</small></p>
                                     <h5 class ="card-title">name: {name}</h5>
                                     <Button  class ="btn btn-dark">Details here</Button>
                                     </div>
